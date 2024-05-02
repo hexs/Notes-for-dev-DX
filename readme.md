@@ -3,7 +3,7 @@
 |------|---------------------------------------------------------------------------|--------------------------|
 |not OK|[python](https://www.python.org/downloads/release/python-31011/)           |language
 |not OK|[JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)                |for editor
-|not OK|[Microsoft PowerToys](https://learn.microsoft.com/th-th/windows/powertoys/)|Always On Top for pin windows above other windows with a quick key shortcut
+|not OK|[Microsoft PowerToys](https://learn.microsoft.com/th-th/windows/powertoys/)|Always On Top <br>for pin windows above other windows with a quick key shortcut
 |not OK|[git](https://git-scm.com/download/win)                                    |source code management
 |not OK|[tesseract-ocr](https://github.com/UB-Mannheim/tesseract/wiki)             |image to text
 |not OK|[notepad++](https://notepad-plus-plus.org/downloads/)                      |
