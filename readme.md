@@ -12,21 +12,21 @@
 |not OK|[python](https://www.python.org/downloads/release/python-31011/)|language|
 |not OK|[JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)|editor|
 |not OK|[Microsoft PowerToys](https://learn.microsoft.com/th-th/windows/powertoys/)|Always On Top <br>for pin windows above other windows with a quick key shortcut|
-|not OK|[git](https://git-scm.com/download/win/)|source code management|
+|not OK|[git](https://git-scm.com/download/win/)|Git is a DevOps tool used for source code management.|
 |not OK|[tesseract-ocr](https://github.com/UB-Mannheim/tesseract/wiki)|image to text|
 |not OK|[notepad++](https://notepad-plus-plus.org/downloads/)|editor|
 |not OK|[winrar](https://www.win-rar.com/predownload.html/)|แบ่งแยกไฟล์เป็นชิ้นเล็กๆ|
 |not OK|[google chrome](https://www.google.com/intl/th/chrome/)|web browser|
-|not OK|photoshop||
-|not OK|GeForce Experience|*for traning PC|
+|not OK|[GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience/)|*for traning PC|
+|not OK|[virtualbox](https://www.virtualbox.org/wiki/Downloads/)|VirtualBox is primarily used for testing software, <br>running multiple operating systems simultaneously, <br>and creating isolated environments for development and experimentation.|
 
-## Lib
+## Python Lib
   
 
 |Status|Name|Latest Version|Command install|
 | :--- | :--- | :--- | :--- |
 |not OK|[opencv-python](https://pypi.org/project/opencv-python/)|opencv-python 4.9.0.80|pip install opencv-python|
-|not OK|[ultralytics](https://pypi.org/project/ultralytics/)|ultralytics 8.2.14|pip install ultralytics|
+|not OK|[ultralytics](https://pypi.org/project/ultralytics/)|ultralytics 8.2.15|pip install ultralytics|
 |not OK|[tensorflow](https://pypi.org/project/tensorflow/)|tensorflow 2.16.1|pip install tensorflow|
 |not OK|[pytesseract](https://pypi.org/project/pytesseract/)|pytesseract 0.3.10|pip install pytesseract|
 |not OK|[pyperclip](https://pypi.org/project/pyperclip/)|pyperclip 1.8.2|pip install pyperclip|
