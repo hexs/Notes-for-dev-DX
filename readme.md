@@ -9,18 +9,18 @@
 
 |Status|Program|Used for|
 | :--- | :--- | :--- |
-|not OK|[python](https://www.python.org/downloads/release/python-31011/)|language|
-|not OK|[JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)|editor|
-|not OK|[Microsoft PowerToys](https://learn.microsoft.com/th-th/windows/powertoys/)|Always On Top <br>for pin windows above other windows with a quick key shortcut|
-|not OK|[git](https://git-scm.com/download/win/)|Git is a DevOps tool used for source code management.|
-|not OK|[tesseract-ocr](https://github.com/UB-Mannheim/tesseract/wiki)|image to text|
-|not OK|[notepad++](https://notepad-plus-plus.org/downloads/)|editor|
-|not OK|[winrar](https://www.win-rar.com/predownload.html/)|แบ่งแยกไฟล์เป็นชิ้นเล็กๆ|
-|not OK|[google chrome](https://www.google.com/intl/th/chrome/)|web browser|
-|not OK|[GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience/)|*for traning PC|
-|not OK|[CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive/)|*for traning PC|
-|not OK|[cuDNN](https://developer.nvidia.com/rdp/cudnn-archive/)|*for traning PC|
-|not OK|[virtualbox](https://www.virtualbox.org/wiki/Downloads/)|VirtualBox is primarily used for testing software, <br>running multiple operating systems simultaneously, <br>and creating isolated environments for development and experimentation.|
+|235000<br>235002<br>235004|[python](https://www.python.org/downloads/release/python-31011/)|language|
+|235000<br>235002<br>235004|[JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)|editor|
+|-|[Microsoft PowerToys](https://learn.microsoft.com/th-th/windows/powertoys/)|Always On Top <br>for pin windows above other windows with a quick key shortcut|
+|235000<br>235002<br>235004|[git](https://git-scm.com/download/win/)|Git is a DevOps tool used for source code management.|
+|235000<br>235002<br>235004|[tesseract-ocr](https://github.com/UB-Mannheim/tesseract/wiki)|image to text|
+|235000<br>235002<br>235004|[notepad++](https://notepad-plus-plus.org/downloads/)|editor|
+|-|[winrar](https://www.win-rar.com/predownload.html/)|แบ่งแยกไฟล์เป็นชิ้นเล็กๆ|
+|235000<br>235002<br>235004|[google chrome](https://www.google.com/intl/th/chrome/)|web browser|
+|-|[GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience/)|*for traning PC|
+|-|[CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive/)|*for traning PC|
+|-|[cuDNN](https://developer.nvidia.com/rdp/cudnn-archive/)|*for traning PC|
+|-|[virtualbox](https://www.virtualbox.org/wiki/Downloads/)|VirtualBox is primarily used for testing software, <br>running multiple operating systems simultaneously, <br>and creating isolated environments for development and experimentation.|
 
 ## Python Lib
   
