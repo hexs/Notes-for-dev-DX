@@ -42,8 +42,9 @@ def get_installed_libraries(lib_name):
     library_list = []
     for lib in os.listdir(whl_path):
         name = lib.split('-')[0]
+        version = lib.split('-')[1]
         # name, version, type1, type2, device = lib.split('-')
-        library_list.append(name)
+        library_list.append([name, version])
     return library_list
 
 
@@ -53,8 +54,14 @@ def main():
 
     # use function get_installed_libraries
     for lib_name, v in libs_dict.items():
+        # ถ้าไม่มี project used ให้สร้าง key
+        if v.get('project used') is None:
+            v['project used'] = ''
+
+        # ถ้ามี library_list อยู่แล้ว ให้ข้าม
         if v.get('library_list'):
             continue
+        # get_installed_libraries
         try:
             v['library_list'] = get_installed_libraries(lib_name)
             with open('libs.json', 'w', encoding='utf-8') as file:
@@ -63,7 +70,7 @@ def main():
             print(f'{lib_name} error')
 
     pprint(libs_dict)
-    # with open('libs.json', 'w', encoding='utf-8') as file:
-    #     json.dump(libs_dict, file, ensure_ascii=False, indent=4)
+    with open('libs.json', 'w', encoding='utf-8') as file:
+        json.dump(libs_dict, file, ensure_ascii=False, indent=4)
 
 main()
