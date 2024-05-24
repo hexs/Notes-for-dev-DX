@@ -7,6 +7,7 @@ from pprint import pprint
 # from mdutils.mdutils import MdUtils
 # from mdutils import Html
 from urllib.request import urlopen
+from constant import *
 
 
 def get_latest_package_version(package):
@@ -73,4 +74,15 @@ def main():
     with open('libs.json', 'w', encoding='utf-8') as file:
         json.dump(libs_dict, file, ensure_ascii=False, indent=4)
 
-main()
+
+# main()
+
+def check_lib():
+    with open('libs.json', encoding='utf-8') as f:
+        libs_dict = json.loads(f.read())
+    for i, (lib_name, v) in enumerate(libs_dict.items(), start=1):
+        print(i, lib_name)
+    while True:
+        ip = input('>')
+        if ip not in libs_dict.keys():
+            print(RED, ip, ENDC)
