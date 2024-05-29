@@ -67,7 +67,7 @@
 
 ## 5. ultralytics
 
-### latest version : 8.2.20
+### latest version : 8.2.24
 
 ### command install : pip install ultralytics
 
@@ -84,7 +84,7 @@
 |contourpy|1.2.1|pip install contourpy|
 |cycler|0.12.1|pip install cycler|
 |filelock|3.14.0|pip install filelock|
-|fonttools|4.51.0|pip install fonttools|
+|fonttools|4.52.4|pip install fonttools|
 |fsspec|2024.5.0|pip install fsspec|
 |idna|3.7|pip install idna|
 |intel_openmp|2021.4.0|pip install intel_openmp|
@@ -118,7 +118,7 @@
 |tqdm|4.66.4|pip install tqdm|
 |typing_extensions|4.12.0|pip install typing_extensions|
 |tzdata|2024.1|pip install tzdata|
-|ultralytics|8.2.20|pip install ultralytics|
+|ultralytics|8.2.24|pip install ultralytics|
 |urllib3|2.2.1|pip install urllib3|
 
 ## 6. tensorflow
@@ -398,7 +398,7 @@
 | :--- | :--- | :--- |
 |contourpy|1.2.1|pip install contourpy|
 |cycler|0.12.1|pip install cycler|
-|fonttools|4.51.0|pip install fonttools|
+|fonttools|4.52.4|pip install fonttools|
 |kiwisolver|1.4.5|pip install kiwisolver|
 |matplotlib|3.9.0|pip install matplotlib|
 |numpy|1.26.4|pip install numpy|
@@ -421,7 +421,7 @@
 
 |Library|Latest Version|Command install|
 | :--- | :--- | :--- |
-|anyio|4.3.0|pip install anyio|
+|anyio|4.4.0|pip install anyio|
 |argon2_cffi|23.1.0|pip install argon2_cffi|
 |argon2_cffi_bindings|21.2.0|pip install argon2_cffi_bindings|
 |arrow|1.3.0|pip install arrow|
@@ -480,7 +480,7 @@
 |parso|0.8.4|pip install parso|
 |platformdirs|4.2.2|pip install platformdirs|
 |prometheus_client|0.20.0|pip install prometheus_client|
-|prompt_toolkit|3.0.43|pip install prompt_toolkit|
+|prompt_toolkit|3.0.45|pip install prompt_toolkit|
 |psutil|5.9.8|pip install psutil|
 |pure_eval|0.2.2|pip install pure_eval|
 |pycparser|2.22|pip install pycparser|
@@ -528,7 +528,7 @@
 
 |Library|Latest Version|Command install|
 | :--- | :--- | :--- |
-|anyio|4.3.0|pip install anyio|
+|anyio|4.4.0|pip install anyio|
 |argon2_cffi|23.1.0|pip install argon2_cffi|
 |argon2_cffi_bindings|21.2.0|pip install argon2_cffi_bindings|
 |arrow|1.3.0|pip install arrow|
@@ -586,7 +586,7 @@
 |parso|0.8.4|pip install parso|
 |platformdirs|4.2.2|pip install platformdirs|
 |prometheus_client|0.20.0|pip install prometheus_client|
-|prompt_toolkit|3.0.43|pip install prompt_toolkit|
+|prompt_toolkit|3.0.45|pip install prompt_toolkit|
 |psutil|5.9.8|pip install psutil|
 |pure_eval|0.2.2|pip install pure_eval|
 |pycparser|2.22|pip install pycparser|
@@ -636,7 +636,6 @@
 | :--- | :--- | :--- |
 |altgraph|0.17.4|pip install altgraph|
 |auto_py_to_exe|2.43.3|pip install auto_py_to_exe|
-|bottle|0.12.25|pip install bottle|
 |bottle|websocket|pip install bottle|
 |certifi|2024.2.2|pip install certifi|
 |cffi|1.16.0|pip install cffi|
@@ -733,3 +732,18 @@
 #### in CHT used for md file
 
 #### The Canon HT computer cannot install the library.
+
+## 28. gitpython
+
+### latest version : 3.1.43
+
+### command install : pip install gitpython
+
+#### ควบคุม git
+  
+
+|Library|Latest Version|Command install|
+| :--- | :--- | :--- |
+|gitdb|4.0.11|pip install gitdb|
+|GitPython|3.1.43|pip install GitPython|
+|smmap|5.0.1|pip install smmap|
