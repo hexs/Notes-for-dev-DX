@@ -21,6 +21,8 @@
 |-|[CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive/)|*for traning PC|
 |-|[cuDNN](https://developer.nvidia.com/rdp/cudnn-archive/)|*for traning PC|
 |-|[virtualbox](https://www.virtualbox.org/wiki/Downloads/)|VirtualBox is primarily used for testing software, <br>running multiple operating systems simultaneously, <br>and creating isolated environments for development and experimentation.|
+|-|PuTTY||
+|-|Arduino IDE||
 
 ## Python Lib
   
