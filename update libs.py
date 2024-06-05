@@ -84,13 +84,13 @@ def main():
             try:
                 v['library_dict'] = get_installed_libraries(lib_name)
                 with open('libs.json', 'w', encoding='utf-8') as file:
-                    json.dump(libs_dict, file, ensure_ascii=False, indent=4)
+                    json.dump(libs_dict, file, ensure_ascii=False, indent=2)
             except:
                 print(f'{lib_name} error')
 
     # pprint(libs_dict)
     with open('libs.json', 'w', encoding='utf-8') as file:
-        json.dump(libs_dict, file, ensure_ascii=False, indent=4)
+        json.dump(libs_dict, file, ensure_ascii=False, indent=2)
 
 
 main()
